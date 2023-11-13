@@ -9,3 +9,6 @@ const carros = {
 for (let i in carros) {
     console.log(i, carros[i]);
 }
+for (let i in frutas) {
+    console.log(i, frutas[i]);
+}
