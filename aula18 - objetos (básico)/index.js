@@ -14,8 +14,8 @@ function criaPessoa(nome, sobrenome, idade) {
     };
 }
 
-const pessoa1 = criaPessoa("Kauê", "Vitor Morsch", 17);
-const pessoa2 = criaPessoa("Ryan", "Beatty", 18);
+const pessoa1 = criaPessoa("Kauê", "Vitor Morsch", 18);
+const pessoa2 = criaPessoa("Josiah", "Birch", 18);
 const pessoa3 = criaPessoa("Jasmin", "Maric", 18);
 pessoa1.fala();
 pessoa2.fala();
