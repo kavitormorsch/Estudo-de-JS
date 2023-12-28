@@ -27,7 +27,7 @@ for(let z=0; z < filternumbers.length - 1; z++){
     
     }
 }
-//console.log(filternumbers);
+console.log(filternumbers);
 
 const people = [
     {name : 'Kauê', age: 58},
