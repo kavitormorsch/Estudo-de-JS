@@ -24,5 +24,5 @@ const mappedPeople3 = people.map(function(value) {
     const newObj = {...value};
     newObj.id = Math.floor(Math.random() * (1000 - 1 + 1) + 1);
 return newObj; 
-}); //para criar uma nova propriedade em um objeto já declarado, apenas precisa-se  dar um valor a nova propriedade que deseja como se já existisse, mas estivesse vazia
+}); //para criar uma nova propriedade em um objeto já declarado, apenas precisa-se  dar um valor a nova propriedade que deseja como se já existisse
 console.log(mappedPeople3);
