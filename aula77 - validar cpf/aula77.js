@@ -76,6 +76,7 @@ validateCPF.prototype.digitVerification = function(parcialCPF) {
        reverseIndex--;
        return ac
    }, 0)
+   console.log(digit);
    let result = 11 - (digit % 11);
     return result > 9 ? 0 : String(result);
 }

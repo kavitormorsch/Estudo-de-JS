@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+:root {
+    --primary-color: rgb(190, 136, 99);
+    --primary-color-darker: rgb(134, 134, 134);
+    --secondary-color: #0e8a03;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Poppins';
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+form input, form label, form button {
+    display: flex;
+    flex-flow: column-wrap;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+form p{
+    margin-bottom: 0px;
+}
+
+
+
+form input {
+    background: var(--primary-color-darker);
+    font-size: 20px;
+    height: 30px;
+    padding: 0 10px;
+    width: 50%;
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color);
+}
+form button {
+    align-self: center;
+    border:none;
+    background: var(--primary-color);
+    
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 45px;
+    width:40%;
+    display:flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+form button:hover{
+    background: rgb(255, 100, 100);
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.error-text
+{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+}
